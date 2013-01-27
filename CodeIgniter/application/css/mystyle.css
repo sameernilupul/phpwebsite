@@ -1,0 +1,77 @@
+html{background:#f7f5f5 
+         url(paper.jpg) repeat
+}
+
+body {
+font-family: "helvetica neue",arial,sans-serif;
+font-size: 10px;
+color: #211922;
+}
+
+.pin{
+    position:absolute;
+    width:192px;
+    padding:15px 15px 0;
+    font-size:11px;
+    background-color:#fff;
+    box-shadow:0 1px 3px rgba(34,25,25,0.4);
+    -moz-box-shadow:0 1px 2px rgba(34,25,25,0.4);
+    -webkit-box-shadow:0 1px 3px rgba(34,25,25,0.4)
+}
+
+.pin .actions {
+position: absolute;
+z-index: 3;
+top: -8px;
+left: -8px;
+}
+
+.pin .WhiteButton.Button11 {
+-moz-border-radius: 6px;
+-webkit-border-radius: 6px;
+border-radius: 6px;
+padding: 7px 9px;
+
+-webkit-box-shadow: inset 0 1px rgba(255,255,255,0.35),0 0 0 1px rgba(140,126,126,0.5);
+box-shadow: inset 0 1px rgba(255,255,255,0.35),0 0 0 1px rgba(140,126,126,0.5);
+}
+.convo{
+    margin:0 -15px;
+    padding:10px 15px;
+    background-color:#f2f0f0
+}
+.convo:after{
+    clear:both;
+    display:block;
+    height:0;
+    content:" ";
+    visibility:hidden
+}
+.convo p{
+    margin:0 0 0 36px;
+    overflow:hidden;
+    word-wrap:break-word;
+   
+}
+.convo .ImgLink{float:left;margin-right:6px;width:30px}
+.convo .ImgLink img{width:30px;height:30px}
+a.convo{display:block;padding:12px 15px;text-align:center}
+a.convo:hover{background-color:#f2f0f0}
+a.convo:active{color:#221919;background-color:#e1dfdf}
+
+a{
+font-weight: bold;
+color: #221919;
+text-decoration: none;
+outline: none;
+}
+
+a:-webkit-any-link {
+color: -webkit-link;
+text-decoration: underline;
+cursor: auto;
+}
+
+.pin .PinHolder {
+position: relative;
+}
