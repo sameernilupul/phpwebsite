@@ -7,51 +7,47 @@ and open the template in the editor.
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>This is home page</title>
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url() . '/' . $css; ?>"/>
     </head>
     <body>
-        <div style="background: #990000;position: relative;width: 100%;height: 2100px;float: right" >
-            <div style="position: relative; width: 100%;background: #0134c5;height: 100px;float: right">
-
-                <div style="position: relative;top : 20px;width: 100px;background: bisque;height: 30px;float: left" >
+        <div id ="big_div">
+            <div id ="topbox_div">
+                <div id="signin_div">
                     <form>
-                        <button type="button" onclick="alert('Sign in')">Sign in</button>
+                        <a href="#" class="button signin">SIGN IN</a>
                     </form>
                 </div>
-                <div style="position: relative;top : 20px;width: 100px;background: blue;height: 30px;float: left">
+                <div id="signup_div">
                     <form>
-                        <button type="button" onclick="alert('Sign up')">Sign up</button>
+                        <a href="#" class="button signup">SIGN UP</a>
                     </form>
                 </div>
-                <div style="position: relative;top : 20px;width: 100px;background: blue;height: 30px;float: right">
-                    <form action="#" id="search_box">
-                        <div class="wrapper">
-                            <input type="text" id="search" name="search" placeholder="Search for Music">
-                            <button type="submit" class="search_btn"><img src="search_icon.png" title="Search"></button>
-                        </div>
+                <div id ="search_div">
+                    <form method="get" action="/search" id="search">
+                        <input name="q" type="text" size="40" placeholder="Search..." />
                     </form>
-
                 </div>
 
             </div>
-            <div style="position: relative;width: 20%;background: #E68F8F;height: 1950px;float: right" >
+            <div id ="column1_div">
 
             </div>
-            <div style="position: relative;width: 20%;background: aqua;height: 1950px;float: right" >
+            <div id ="column2_div">
 
             </div>
-            <div style="position: relative;width: 20%;background: coral;height: 1950px;float: right" >
+            <div id ="column3_div">
 
             </div>
-            <div style="position: relative;width: 20%;background: chartreuse;height: 1950px;float: right" >
+            <div id ="column4_div">
 
             </div>
-            <div style="position: relative;width: 20%;background: goldenrod;height: 1950px;float: right" >
+            <div id ="column5_div">
 
             </div>
-            <div style="position: relative;width: 100%;background: gray;height: 50px;float: right" >
+            <div id ="bottom1_div">
 
             </div>
-            <div style="position: relative;width: 100%;background: greenyellow;height:50px;float: right" >
+            <div id ="bottom2_div">
 
             </div>
 
