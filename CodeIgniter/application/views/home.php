@@ -30,18 +30,238 @@ and open the template in the editor.
 
             </div>
             <div id ="column1_div">
+                <?php
+                $counter = 0;
+                foreach ($result as $row) {
+                    $counter++;
+                    if ($counter % 5 != 1)
+                        continue;
+                    echo'
+                    <div>
+                    <div style="width: 85%;height: 20px; position: relative;float: bottom">
+
+                    </div>    
+                    <div style="border-top-left-radius: 15px; border-top-right-radius: 15px;width: 85%; left: 7%; position: relative;float: bottom;background: #EBF3EC;box-shadow: 0px 0px 10px #000 "  >
+
+                        <div style=" height: 10px;width: 100%">
+
+                        </div>
+                        <div style="width: 100%">
+                            <center>' . $row->name . '</center>
+                        </div>
+                        <img src="' . $base . $row->image . '"  style="position: relative;left: 5%" width="90%" />
+                        <div style=" height: 10px;width: 100%">
+
+                        </div>
+                        <div style="width: 100%;background: #cdd;font-size: small">
+                            <center>Actual price : ' . $row->unitprice . '</center>
+
+                        </div>
+                        <div style="width: 100%;background: #cdd;font-size: small">
+                            <center>Our price : ' . $row->offerprice . '</center>                            
+                        </div>
+                        <div style="width: 100%;font-size: small;">
+                            <div style="position: relative">
+                                <label style="left: 10px;position: relative;float: left"> Hits 100 </label> 
+                                <form >
+                                    <input type="submit" value="Bid it" style="position: relative;left: 40%"/>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div> 
+                </div>
+                ';
+                }
+                ?>
 
             </div>
             <div id ="column2_div">
+                <?php
+                $counter = 0;
+                foreach ($result as $row) {
+                    $counter++;
+                    if ($counter % 5 != 2)
+                        continue;
+                    echo'
+                    <div>
+                    <div style="width: 85%;height: 20px; position: relative;float: bottom">
+
+                    </div>    
+                    <div style="border-top-left-radius: 15px; border-top-right-radius: 15px;width: 85%; left: 7%; position: relative;float: bottom;background: #EBF3EC;box-shadow: 0px 0px 10px #000 "  >
+
+                        <div style=" height: 10px;width: 100%">
+
+                        </div>
+                        <div style="width: 100%">
+                            <center>' . $row->name . '</center>
+                        </div>
+                        <img src="' . $base . $row->image . '"  style="position: relative;left: 5%" width="90%" />
+                        <div style=" height: 10px;width: 100%">
+
+                        </div>
+                        <div style="width: 100%;background: #cdd;font-size: small">
+                            <center>Actual price : ' . $row->unitprice . '</center>
+
+                        </div>
+                        <div style="width: 100%;background: #cdd;font-size: small">
+                            <center>Our price : ' . $row->offerprice . '</center>                            
+                        </div>
+                        <div style="width: 100%;font-size: small;">
+                            <div style="position: relative">
+                                <label style="left: 10px;position: relative;float: left"> Hits 100 </label> 
+                                <form >
+                                    <input type="submit" value="Bid it" style="position: relative;left: 40%"/>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div> 
+                </div>
+                ';
+                }
+                ?>
 
             </div>
             <div id ="column3_div">
+                <?php
+                $counter = 0;
+                foreach ($result as $row) {
+                    $counter++;
+                    if ($counter % 5 != 3)
+                        continue;
+                    echo'
+                    <div>
+                    <div style="width: 85%;height: 20px; position: relative;float: bottom">
+
+                    </div>    
+                    <div style="border-top-left-radius: 15px; border-top-right-radius: 15px;width: 85%; left: 7%; position: relative;float: bottom;background: #EBF3EC;box-shadow: 0px 0px 10px #000 "  >
+
+                        <div style=" height: 10px;width: 100%">
+
+                        </div>
+                        <div style="width: 100%">
+                            <center>' . $row->name . '</center>
+                        </div>
+                        <img src="' . $base . $row->image . '"  style="position: relative;left: 5%" width="90%" />
+                        <div style=" height: 10px;width: 100%">
+
+                        </div>
+                        <div style="width: 100%;background: #cdd;font-size: small">
+                            <center>Actual price : ' . $row->unitprice . '</center>
+
+                        </div>
+                        <div style="width: 100%;background: #cdd;font-size: small">
+                            <center>Our price : ' . $row->offerprice . '</center>                            
+                        </div>
+                        <div style="width: 100%;font-size: small;">
+                            <div style="position: relative">
+                                <label style="left: 10px;position: relative;float: left"> Hits 100 </label> 
+                                <form >
+                                    <input type="submit" value="Bid it" style="position: relative;left: 40%"/>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div> 
+                </div>
+                ';
+                }
+                ?>
 
             </div>
             <div id ="column4_div">
+                <?php
+                $counter = 0;
+                foreach ($result as $row) {
+                    $counter++;
+                    if ($counter % 5 != 4)
+                        continue;
+                    echo'
+                    <div>
+                    <div style="width: 85%;height: 20px; position: relative;float: bottom">
+
+                    </div>    
+                    <div style="border-top-left-radius: 15px; border-top-right-radius: 15px;width: 85%; left: 7%; position: relative;float: bottom;background: #EBF3EC;box-shadow: 0px 0px 10px #000 "  >
+
+                        <div style=" height: 10px;width: 100%">
+
+                        </div>
+                        <div style="width: 100%">
+                            <center>' . $row->name . '</center>
+                        </div>
+                        <img src="' . $base . $row->image . '"  style="position: relative;left: 5%" width="90%" />
+                        <div style=" height: 10px;width: 100%">
+
+                        </div>
+                        <div style="width: 100%;background: #cdd;font-size: small">
+                            <center>Actual price : ' . $row->unitprice . '</center>
+
+                        </div>
+                        <div style="width: 100%;background: #cdd;font-size: small">
+                            <center>Our price : ' . $row->offerprice . '</center>                            
+                        </div>
+                        <div style="width: 100%;font-size: small;">
+                            <div style="position: relative">
+                                <label style="left: 10px;position: relative;float: left"> Hits 100 </label> 
+                                <form >
+                                    <input type="submit" value="Bid it" style="position: relative;left: 40%"/>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div> 
+                </div>
+                ';
+                }
+                ?>
 
             </div>
             <div id ="column5_div">
+                <?php
+                $counter = 0;
+                foreach ($result as $row) {
+                    $counter++;
+                    if ($counter % 5 != 0)
+                        continue;
+                    echo'
+                    <div>
+                    <div style="width: 85%;height: 20px; position: relative;float: bottom">
+
+                    </div>    
+                    <div style="border-top-left-radius: 15px; border-top-right-radius: 15px;width: 85%; left: 7%; position: relative;float: bottom;background: #EBF3EC;box-shadow: 0px 0px 10px #000 "  >
+
+                        <div style=" height: 10px;width: 100%">
+
+                        </div>
+                        <div style="width: 100%">
+                            <center>' . $row->name . '</center>
+                        </div>
+                        <img src="' . $base . $row->image . '"  style="position: relative;left: 5%" width="90%" />
+                        <div style=" height: 10px;width: 100%">
+
+                        </div>
+                        <div style="width: 100%;background: #cdd;font-size: small">
+                            <center>Actual price : ' . $row->unitprice . '</center>
+
+                        </div>
+                        <div style="width: 100%;background: #cdd;font-size: small">
+                            <center>Our price : ' . $row->offerprice . '</center>                            
+                        </div>
+                        <div style="width: 100%;font-size: small;">
+                            <div style="position: relative">
+                                <label style="left: 10px;position: relative;float: left"> Hits 100 </label> 
+                                <form >
+                                    <input type="submit" value="Bid it" style="position: relative;left: 40%"/>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div> 
+                </div>
+                ';
+                }
+                ?>
 
             </div>
             <div id ="bottom1_div">
