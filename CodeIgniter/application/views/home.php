@@ -41,7 +41,7 @@ and open the template in the editor.
                     <div style="width: 85%;height: 20px; position: relative;float: bottom">
 
                     </div>    
-                    <div style="border-top-left-radius: 15px; border-top-right-radius: 15px;width: 85%; left: 7%; position: relative;float: bottom;background: #EBF3EC;box-shadow: 0px 0px 10px #000 "  >
+                    <div style="border-top-left-radius: 15px; border-top-right-radius: 15px;border-bottom-left-radius: 15px; border-bottom-right-radius: 15px; width: 85%; left: 7%; position: relative;float: bottom;background: #EBF3EC;box-shadow: 0px 0px 10px #000 "  >
 
                         <div style=" height: 10px;width: 100%">
 
@@ -88,7 +88,7 @@ and open the template in the editor.
                     <div style="width: 85%;height: 20px; position: relative;float: bottom">
 
                     </div>    
-                    <div style="border-top-left-radius: 15px; border-top-right-radius: 15px;width: 85%; left: 7%; position: relative;float: bottom;background: #EBF3EC;box-shadow: 0px 0px 10px #000 "  >
+                    <div style="border-top-left-radius: 15px; border-top-right-radius: 15px;width: 85%;border-bottom-left-radius: 15px; border-bottom-right-radius: 15px; left: 7%; position: relative;float: bottom;background: #EBF3EC;box-shadow: 0px 0px 10px #000 "  >
 
                         <div style=" height: 10px;width: 100%">
 
@@ -135,7 +135,7 @@ and open the template in the editor.
                     <div style="width: 85%;height: 20px; position: relative;float: bottom">
 
                     </div>    
-                    <div style="border-top-left-radius: 15px; border-top-right-radius: 15px;width: 85%; left: 7%; position: relative;float: bottom;background: #EBF3EC;box-shadow: 0px 0px 10px #000 "  >
+                    <div style="border-top-left-radius: 15px; border-top-right-radius: 15px;border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;width: 85%; left: 7%; position: relative;float: bottom;background: #EBF3EC;box-shadow: 0px 0px 10px #000 "  >
 
                         <div style=" height: 10px;width: 100%">
 
@@ -182,7 +182,7 @@ and open the template in the editor.
                     <div style="width: 85%;height: 20px; position: relative;float: bottom">
 
                     </div>    
-                    <div style="border-top-left-radius: 15px; border-top-right-radius: 15px;width: 85%; left: 7%; position: relative;float: bottom;background: #EBF3EC;box-shadow: 0px 0px 10px #000 "  >
+                    <div style="border-top-left-radius: 15px; border-top-right-radius: 15px;border-bottom-left-radius: 15px; border-bottom-right-radius: 15px; width: 85%; left: 7%; position: relative;float: bottom;background: #EBF3EC;box-shadow: 0px 0px 10px #000 "  >
 
                         <div style=" height: 10px;width: 100%">
 
@@ -229,7 +229,7 @@ and open the template in the editor.
                     <div style="width: 85%;height: 20px; position: relative;float: bottom">
 
                     </div>    
-                    <div style="border-top-left-radius: 15px; border-top-right-radius: 15px;width: 85%; left: 7%; position: relative;float: bottom;background: #EBF3EC;box-shadow: 0px 0px 10px #000 "  >
+                    <div style="border-top-left-radius: 15px; border-top-right-radius: 15px;border-bottom-left-radius: 15px; border-bottom-right-radius: 15px; width: 85%; left: 7%; position: relative;float: bottom;background: #EBF3EC;box-shadow: 0px 0px 10px #000 "  >
 
                         <div style=" height: 10px;width: 100%">
 
