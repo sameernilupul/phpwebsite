@@ -1,10 +1,20 @@
 <?php
-class Main extends CI_Controller{
-    function Main(){
+
+class Main extends CI_Controller {
+
+    function Main() {
         parent::__construct();
     }
-    function home(){
-        $this->load->view('home');
+
+    function home() {
+        $this->load->model('offer_model');
+        $data['base'] = $this->config->item('base_url');
+        $data['css'] = $this->config->item('css2');
+        $data['result']= $this->offer_model->offer_getall();
+        $this->load->helper('url');
+        $this->load->view('home',$data);
     }
+
 }
+
 ?>
