@@ -8,18 +8,20 @@ and open the template in the editor.
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>This is home page</title>
         <link rel="stylesheet" type="text/css" href="<?php echo base_url() . '/' . $css; ?>"/>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src ="<?php echo base_url() . '/'.'application/javascripts/home_actions.js'?>"> </script>    
     </head>
     <body>
         <div id ="big_div">
             <div id ="topbox_div">
                 <div id="signin_div">
                     <form>
-                        <a href="#" class="button signin">SIGN IN</a>
+                        <a id ="signin_btn" href="#" class="button signin">SIGN IN</a>
                     </form>
                 </div>
                 <div id="signup_div">
                     <form>
-                        <a href="#" class="button signup">SIGN UP</a>
+                        <a id ="signup_btn" href="#" class="button signup">SIGN UP</a>
                     </form>
                 </div>
                 <div id ="search_div">
