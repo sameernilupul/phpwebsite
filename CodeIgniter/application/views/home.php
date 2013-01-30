@@ -9,11 +9,17 @@ and open the template in the editor.
         <title>This is home page</title>
         <link rel="stylesheet" type="text/css" href="<?php echo base_url() . '/' . $css; ?>"/>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-        <script src ="<?php echo base_url() . '/'.'application/javascripts/home_actions.js'?>"> </script>    
+        <script src ="<?php echo base_url() . '/' . 'application/javascripts/home_actions.js' ?>"> </script>    
     </head>
     <body>
+
         <div id ="big_div">
             <div id ="topbox_div">
+                <div id ="siginin_forum_div">
+                    <form>
+                        <p>Username: <input type="text" id="username_txt" value="Username"> Password: <input type="password" id="passwd_txt" value="Password"></p>
+                    </form>
+                </div>
                 <div id="signin_div">
                     <form>
                         <a id ="signin_btn" href="#" class="button signin">SIGN IN</a>
